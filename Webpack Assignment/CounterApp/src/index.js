@@ -17,7 +17,6 @@ const App = () => {
     setCount(0)}
   return (
     <div style={{textAlign: "center" }}>
-      {/* <h1 style={{ color: "red", textAlign: "center" }}>The Isfhan Ahmed</h1> */}
       <button onClick={incrementCount}> UP</button>
              <h2>{count}</h2>
             <button onClick={decrementCount}>DOWN</button>
