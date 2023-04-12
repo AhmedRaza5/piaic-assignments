@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #282c34;
+  padding-top: 40px;
+}
+
+.App h1 {
+  color: #c0fb61;
+  padding-bottom: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.todo {
+  width: 60%;
+  height: auto;
+  background-color: #fff;
+  display: inline-block;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.input-container input{
+  outline: none;
+  width: 65%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #83b631;
+  font-size: 16px;
+}
+.input-container button{
+  background-color: #c0fb61;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #83b631;
+  cursor: pointer;
+}
+.input-container button:hover{
+  background-color: #83b631;
+  color: #fff;
+}
+.data ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: #cacacc;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+}
+.flex input{
+  margin: 5px 10px;
+  width: 15px;
+  height: 15px;
+  
+}
+.flex input[type=checkbox]{
+  cursor: pointer;
+ accent-color: #c0fb61;
+}
+.data i{
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
